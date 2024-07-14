@@ -1,0 +1,158 @@
+body {
+  background-color: #fff;
+  /* background-image: url("hero_bg.png"); */
+}
+.main_cont {
+  margin-top: 10px;
+}
+.season_img {
+  border-radius: 15%;
+}
+.season_text_cont {
+  padding-top: 150px;
+}
+.season_text {
+  /* margin-top: 140px; */
+  font-size: 3rem;
+}
+.season_emp {
+  font-size: 5rem;
+}
+.season_emp_2 {
+  font-size: 3rem;
+}
+.result_text {
+  width: 80%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.colour_outfits {
+  min-height: 400px;
+}
+
+.card_container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.card_container .card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.card_container .card .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.card_container .card:hover .content {
+  transform: translateY(-20px);
+}
+
+.card_container .card .content .imgBx {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.card_container .card .content .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_container .card .content .contentBx h3 {
+  /* color: #fff; */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+
+.card_container .card .content .contentBx h3 span {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
+}
+
+.card_container .card .sci {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+}
+
+.card_container .card .sci li {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.card_container .card:hover .sci li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.container.builder .image-wrapper {
+  flex: 1;
+  padding: 5px; /* Adjust padding as needed */
+  height: 300px; /* Set the desired height for each image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.builder img {
+  max-width: 100%; /* Ensures images resize proportionally */
+  max-height: 100%; /* Ensures images resize proportionally */
+  height: auto; /* Ensures images maintain aspect ratio */
+}
+
+.card_container .card .sci li a {
+  /* color: #fff; */
+  font-size: 20px;
+}
+.card_container .card .c1 {
+  background-image: url("outfit1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.card_container .card .c2 {
+  background-image: url("outfit1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card_container .card .c3 {
+  background-image: url("outfit1.jpg");
+  background-size: cover;
+  background-position: center;
+}

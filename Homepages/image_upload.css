@@ -1,0 +1,265 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  height: calc(100% - 300px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url("bg1.jpg"); /* Replace with your image path */
+  background-size: auto; /* Ensures the image does not stretch */
+  background-repeat: repeat; /* Tiles the image */
+  background-position: center;
+  /* background-image: url("hero_bg.png"); */
+}
+
+
+
+
+.hero_banner {
+  width: 100%;
+  height: 200px; /* Adjust the height to your preference */
+  background-color: #f8c9cd; /* Removed the quotes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 7rem;
+  text-align: center;
+}
+
+
+.two_columns_section {
+  display: flex;
+  background-image: url("bg1.jpg"); /* Replace with your image path */
+  background-size: auto; /* Ensures the image does not stretch */
+  background-repeat: repeat; /* Tiles the image */
+  background-position: center;
+  padding: 50px;
+}
+
+.emp {
+  font-style: italic;
+}
+
+.two_columns_section {
+  display: flex;
+  height: 550px;
+}
+hr {
+  width: 100%; /* Ensures the <hr> spans the entire width of its container */
+  border: none; /* Removes default border */
+  border-top: 3px solid #592f3b; /* Adds a solid line */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+.image_side,
+.button_side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+
+}
+.image_side_2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  text-align: left; /* Left-align text */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 25px;
+
+}
+
+.result_text {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.result_text ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.result_text ul li {
+  margin-bottom: 10px;
+}
+
+.image_side img {
+  max-height: 80%;
+  max-width: 100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+
+.photo-button {
+  position: absolute;
+  bottom: 0px; /* Adjust this value to move it lower */
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  transform: translateY(70px); /* Adjust this value to fine-tune the position */
+}
+
+.rectangle {
+  width: 300px; /* Adjust width to your preference */
+  height: 400px; /* Adjust height to your preference */
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload_button {
+  font-size: 2.5rem;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.file-input-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 600px;
+  height: auto;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.input-box {
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  border: 2px dashed #cacaca;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.input-box h4 {
+  margin: 0;
+}
+
+small {
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.wrapper-file-section {
+  margin-top: 20px;
+}
+
+.selected-files h5 {
+  margin-bottom: 10px;
+}
+
+.file-list {
+  overflow-y: auto;
+  list-style-type: none;
+  padding: 0 10px 10px 0;
+  margin: 0;
+  transition: 0.3s all ease-in-out;
+}
+
+.file-list .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.file-list .item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.file-list .item .remove {
+  display: grid;
+  place-items: center;
+  color: #c0392b;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.file-list .item .remove:hover {
+  color: #e74c3c;
+}
+.camera {
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  background-color: #c0392b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+
+.btn {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  background-color: #e48aaa;
+  padding: 20px 40px;
+  border: none;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+.btn:hover {
+  transition: 1000ms;
+  padding: 25px 50px;
+  transform: translateY(-0px);
+  background-color: #b36579;
+  color: #fff;
+  border: none;
+}
+.btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjust height if needed */
+}
+.image_side img {
+  width: 25%; /* Makes the image take the full width of its container */
+  height: 70%; /* Maintains the aspect ratio */
+}
