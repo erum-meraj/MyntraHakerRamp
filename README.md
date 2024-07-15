@@ -7,6 +7,12 @@
 # Prototype Resources
 - Presentation of Idea Submission Round: [Link](https://drive.google.com/file/d/1cVzanF4chqzM4eJke5gUnOiwSrzdfW-g/view?usp=sharing)
 
+# Video Demo
+
+Watch our project in action! Click the link below to view the video:
+
+[![Watch the video](https://img.youtube.com/vi/CyQoD7lDJck/maxresdefault.jpg)](https://youtu.be/CyQoD7lDJck)
+
 # Prototype Images
 1. **Find Your Season Feature**
 
