@@ -20,11 +20,7 @@ Watch our project in action! Click the link below to view the video:
     
 2. **Color Analysis and Outfit Recommendations**
 
-    ![image](https://github.com/your-username/myntra-hackon/blob/main/images/outfit-recommendations.jpg)
-    
-3. **Gamification and Rewards System**
-
-    ![image](https://github.com/your-username/myntra-hackon/blob/main/images/gamification-rewards.jpg)
+    ![image](https://github.com/erum-meraj/MyntraHakerRamp/blob/main/images/Color%20analysis%20result.png)
 
 # Introduction
 Welcome to Myntra's Find Your Season - an AI-powered tool to revolutionize your fashion experience! In the fast-paced world of fashion, finding the perfect style can be overwhelming. Our solution "Find Your Season" is an innovative web application that uses machine learning and computer vision technologies to analyze your facial features and recommend personalized color palettes and stylish outfits.
