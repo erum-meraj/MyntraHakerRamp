@@ -18,6 +18,9 @@ body {
 .season_emp {
   font-size: 5rem;
 }
+.season_emp_2 {
+  font-size: 3rem;
+}
 .result_text {
   width: 80%;
   font-size: 1.5rem;
@@ -116,6 +119,21 @@ body {
   opacity: 1;
 }
 
+.container.builder .image-wrapper {
+  flex: 1;
+  padding: 5px; /* Adjust padding as needed */
+  height: 300px; /* Set the desired height for each image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.builder img {
+  max-width: 100%; /* Ensures images resize proportionally */
+  max-height: 100%; /* Ensures images resize proportionally */
+  height: auto; /* Ensures images maintain aspect ratio */
+}
+
 .card_container .card .sci li a {
   /* color: #fff; */
   font-size: 20px;
@@ -125,6 +143,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 
 .card_container .card .c2 {
   background-image: url("outfit1.jpg");
