@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -11,16 +12,13 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  background-image: url("bg1.jpg"); /* Replace with your image path */
+
+  background-image: url("hero_bg.png"); /* Replace with your image path */
   background-size: auto; /* Ensures the image does not stretch */
   background-repeat: repeat; /* Tiles the image */
   background-position: center;
   /* background-image: url("hero_bg.png"); */
 }
-
-
-
 
 .hero_banner {
   width: 100%;
@@ -40,10 +38,9 @@ body, html {
   text-align: center;
 }
 
-
 .two_columns_section {
   display: flex;
-  background-image: url("bg1.jpg"); /* Replace with your image path */
+  background-image: url("hero_bg.png"); /* Replace with your image path */
   background-size: auto; /* Ensures the image does not stretch */
   background-repeat: repeat; /* Tiles the image */
   background-position: center;
@@ -81,7 +78,6 @@ hr {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
-
 }
 .image_side_2 {
   flex: 1;
@@ -91,7 +87,6 @@ hr {
   text-align: left; /* Left-align text */
   padding: 20px; /* Adjust padding as needed */
   border-radius: 25px;
-
 }
 
 .result_text {
@@ -99,7 +94,6 @@ hr {
   font-size: 16px;
   line-height: 1.6;
 }
-
 
 .result_text ul {
   list-style-type: none;
@@ -116,7 +110,6 @@ hr {
   margin-top: 10%;
   margin-bottom: 5%;
 }
-
 
 .photo-button {
   position: absolute;
@@ -242,7 +235,6 @@ small {
   flex-direction: row;
   align-items: center;
   cursor: pointer;
-  
 }
 
 .btn:hover {
