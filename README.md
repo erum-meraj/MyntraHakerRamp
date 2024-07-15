@@ -16,7 +16,7 @@ Watch our project in action! Click the link below to view the video:
 # Prototype Images
 1. **Find Your Season Feature**
 
-    ![image](https://github.com/your-username/myntra-hackon/blob/main/images/find-your-season.jpg)
+    ![image](https://github.com/erum-meraj/MyntraHakerRamp/blob/main/images/find%20your%20season.png)
     
 2. **Color Analysis and Outfit Recommendations**
 
