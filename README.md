@@ -2,7 +2,7 @@
 
 **Theme**: *Trend-Centric Recommendations and Engagement on a Shopping Platform*
 
-**Team Name**: *Fashion Innovators*
+**Team Name**: *ByteBabes*
 
 # Prototype Resources
 - Presentation of Idea Submission Round: [Link](https://drive.google.com/file/d/1cVzanF4chqzM4eJke5gUnOiwSrzdfW-g/view?usp=sharing)
