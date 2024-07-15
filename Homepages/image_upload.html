@@ -28,6 +28,43 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="image_upload.css" />
+    <style>
+
+
+      body, html {
+        background-image: url("bg2.jpg"); /* Replace with your image path */
+        background-size: auto; /* Ensures the image does not stretch */
+        background-repeat: repeat; /* Tiles the image */
+        background-position: center;
+      }
+      
+.hero {
+  height: calc(100% - 300px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url("bg2.jpg"); /* Replace with your image path */
+  background-size: auto; /* Ensures the image does not stretch */
+  background-repeat: repeat; /* Tiles the image */
+  background-position: center;
+  /* background-image: url("hero_bg.png"); */
+}
+
+
+.two_columns_section {
+  display: flex;
+  background-image: url("bg2.jpg"); /* Replace with your image path */
+  background-size: auto; /* Ensures the image does not stretch */
+  background-repeat: repeat; /* Tiles the image */
+  background-position: center;
+  padding: 50px;
+}
+
+
+  
+    </style>
   </head>
   <body>
     <!-- MENU BAR -->
@@ -43,11 +80,12 @@
         <li><a href="../Homepages/menHomePage.html">men</a></li>
         <li><a href="../Homepages/womenHomePage.html">women</a></li>
         <li><a href="#">kids</a></li>
-        <li><a href="../Homepages/homeLiving.html">home & living</a></li>
+        <!-- S<li><a href="../Homepages/homeLiving.html">home & living</a></li> -->
         <li><a href="#">beauty</a></li>
-        <li id="studio"><a href="#">studio</a><span>new</span></li>
-        <li><a href="#">My Season</a></li>
-      </ul>
+        <li><a href="#">studio</a></li>
+        <li id="studio"><a href="#"> My Season</a><span>new</span></li>
+    </ul>
+    
       <div id="search">
         <input
           type="text"
@@ -104,13 +142,21 @@
           <span class="hero_text emp">Season</span>
         </h1>
       </div>
-    </div>
+      
+  </div>
+<!--   
+  <div class="hero_banner_2">
+
+    <p class="hero_text_2">Discover Your Perfect Palette: Are You Summer, Spring, Fall, or Winter?</p>
+  </div> -->
+
+    
     <div class="two_columns_section">
       <div class="image_side">
         <img src="iPhone-Frame-PNG-Cutout.png" alt="Image" />
         <div class="photo-button">
 
-            <button class="camera"><i class="fa-solid fa-camera"></i></button>
+            <<button class="camera"><i class="fa-solid fa-camera"></i></button> 
           </div>
       </div>
       <div class="button_side">
@@ -142,7 +188,7 @@
     </div>
     <div class="btn-submit">
         <a href="result.html">
-            <button class="btn">Find your season NOW!</button>
+            <button class="btn">FIND YOUR SEASON NOW!</button>
         </a>
     </div>
     <!-- FOOTER SECTION -->
