@@ -1,11 +1,26 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .hero {
-  height: 800px;
+  height: calc(100% - 300px);
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("hero_bg.png");
+  
+  background-image: url("bg1.jpg"); /* Replace with your image path */
+  background-size: auto; /* Ensures the image does not stretch */
+  background-repeat: repeat; /* Tiles the image */
+  background-position: center;
+  /* background-image: url("hero_bg.png"); */
 }
+
+
+
 
 .hero_banner {
   width: 100%;
@@ -25,13 +40,29 @@
   text-align: center;
 }
 
+
+.two_columns_section {
+  display: flex;
+  background-image: url("bg1.jpg"); /* Replace with your image path */
+  background-size: auto; /* Ensures the image does not stretch */
+  background-repeat: repeat; /* Tiles the image */
+  background-position: center;
+  padding: 50px;
+}
+
 .emp {
   font-style: italic;
 }
 
 .two_columns_section {
   display: flex;
-  height: 500px;
+  height: 550px;
+}
+hr {
+  width: 100%; /* Ensures the <hr> spans the entire width of its container */
+  border: none; /* Removes default border */
+  border-top: 3px solid #592f3b; /* Adds a solid line */
+  margin: 20px 0; /* Adjust margin as needed */
 }
 
 .image_side,
@@ -39,7 +70,9 @@
   flex: 1;
   display: flex;
   justify-content: center;
+  text-align: left;
   align-items: center;
+  border-radius: 25px;
 }
 
 .image-container {
@@ -47,6 +80,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
+
+}
+.image_side_2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  text-align: left; /* Left-align text */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 25px;
+
+}
+
+.result_text {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.result_text ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.result_text ul li {
+  margin-bottom: 10px;
 }
 
 .image_side img {
@@ -56,12 +117,14 @@
   margin-bottom: 5%;
 }
 
+
 .photo-button {
   position: absolute;
-  bottom: 0;
+  bottom: 0px; /* Adjust this value to move it lower */
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 10%;
+  transform: translateY(70px); /* Adjust this value to fine-tune the position */
 }
 
 .rectangle {
@@ -74,7 +137,7 @@
 }
 
 .upload_button {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   padding: 10px 20px;
   cursor: pointer;
 }
@@ -165,11 +228,11 @@ small {
 
 .btn {
   font-family: Roboto, sans-serif;
-  font-weight: 0;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 20px;
   color: #fff;
-  background-color: #fe942b;
-  padding: 10px 30px;
+  background-color: #e48aaa;
+  padding: 20px 40px;
   border: none;
   box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
   border-radius: 50px;
@@ -179,13 +242,14 @@ small {
   flex-direction: row;
   align-items: center;
   cursor: pointer;
+  
 }
 
 .btn:hover {
   transition: 1000ms;
-  padding: 10px 50px;
+  padding: 25px 50px;
   transform: translateY(-0px);
-  background-color: #fe942b;
+  background-color: #b36579;
   color: #fff;
   border: none;
 }
@@ -194,4 +258,8 @@ small {
   justify-content: center;
   align-items: center;
   width: 100%; /* Adjust height if needed */
+}
+.image_side img {
+  width: 25%; /* Makes the image take the full width of its container */
+  height: 70%; /* Maintains the aspect ratio */
 }
